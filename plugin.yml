@@ -1,0 +1,23 @@
+name: Nanosuit2
+version: 1.2.0
+description: Nanosuit from Crysis.
+author: Zen3515
+
+main: me.Zen3515.Nanosuit2.Nanosuit2Main
+
+commands:
+  nanosuit:
+    description:  Activate Nanosuit.
+    usage: /nanosuit or /suit to activate Nanosuit
+    aliases: [suit, nanosuit]
+    permission: NanoSuit.Activate
+  setsuit:
+    description:  Activate Nanosuit for other player.
+    usage: /setnanosuit or /setsuit <player> to activate Nanosuit for <player>.
+    aliases: [setnanosuit, setsuit]
+    permission: NanoSuit.Setsuit
+  suit:
+    description:  Activate Nanosuit.
+    usage: /nanosuit or /suit to activate Nanosuit
+    aliases: [suit, nanosuit]
+    permission: NanoSuit.Activate
